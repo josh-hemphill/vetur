@@ -1,5 +1,14 @@
 {
   "files.exclude": {
     "docs/_book": true
+  },
+  "eslint.format.enable": true,
+  "eslint.options": {
+    "rules": {
+      "indent": [
+        "warn",
+        2
+      ]
+    }
   }
 }
