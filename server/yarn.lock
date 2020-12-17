@@ -1468,15 +1468,15 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-plugin-vue@^7.0.0-beta.3:
-  version "7.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.0.0-beta.3.tgz#37a4fedf46db74cdb3be268390b4541eb7a810b7"
-  integrity sha512-/p23IRPN9gFNN7dzesrctt06Kvs9E3VRB8BGIAPSEaQNk5yhlKUzntPARjUpsTWW+DQg0mqglZptfkUJK4+4EQ==
+eslint-plugin-vue@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.3.0.tgz#0faf0fcf0e1b1052bf800d4dee42d64f50679cb0"
+  integrity sha512-4rc9xrZgwT4aLz3XE6lrHu+FZtDLWennYvtzVvvS81kW9c65U4DUzQQWAFjDCgCFvN6HYWxi7ueEtxZVSB+f0g==
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
     semver "^7.3.2"
-    vue-eslint-parser "^7.1.0"
+    vue-eslint-parser "^7.3.0"
 
 eslint-scope@^5.0.0, eslint-scope@^5.1.0:
   version "5.1.0"
@@ -4958,7 +4958,19 @@ vscode-web-custom-data@^0.3.1:
   resolved "https://registry.yarnpkg.com/vscode-web-custom-data/-/vscode-web-custom-data-0.3.1.tgz#e340b720952bb84d3b9557851eb95cc98ca6f0c6"
   integrity sha512-pFWfUyoJoROfzk7l8+QK1aHsAcfb8fJP8iaEghMbASbYieaGOOnfovNjPIrJmhNf84RGn36R6r2030i9Eld7vA==
 
-vue-eslint-parser@^7.1.0, vue-eslint-parser@~7.1.0:
+vue-eslint-parser@^7.1.0, vue-eslint-parser@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.3.0.tgz#894085839d99d81296fa081d19643733f23d7559"
+  integrity sha512-n5PJKZbyspD0+8LnaZgpEvNCrjQx1DyDHw8JdWwoxhhC+yRip4TAvSDpXGf9SWX6b0umeB5aR61gwUo6NVvFxw==
+  dependencies:
+    debug "^4.1.1"
+    eslint-scope "^5.0.0"
+    eslint-visitor-keys "^1.1.0"
+    espree "^6.2.1"
+    esquery "^1.0.1"
+    lodash "^4.17.15"
+
+vue-eslint-parser@~7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"
   dependencies:
