@@ -11,7 +11,7 @@
     "glob": "^7.1.2",
     "vls": "^0.5.3",
     "vscode-languageserver": "^6.1.1",
-    "vscode-languageserver-protocol": "^3.15.3",
+    "vscode-languageserver-protocol": "^3.16.0",
     "vscode-languageserver-types": "^3.15.1",
     "vscode-uri": "^2.1.2"
   },
